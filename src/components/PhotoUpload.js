@@ -46,7 +46,6 @@ const PhotoUpload = () => {
 
     dispatch(addImage(boundingBoxData));
 
-    // Reset the form fields and image state
     setX1('');
     setY1('');
     setX2('');
